@@ -15,6 +15,7 @@
 		3F7E517E209F30590021AAE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E517C209F30590021AAE6 /* LaunchScreen.storyboard */; };
 		3F7E5189209F30590021AAE6 /* Werkstuk1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E5188209F30590021AAE6 /* Werkstuk1Tests.swift */; };
 		3F7E5194209F30590021AAE6 /* Werkstuk1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E5193209F30590021AAE6 /* Werkstuk1UITests.swift */; };
+		3F7E51A5209F335D0021AAE6 /* Persoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E51A4209F335D0021AAE6 /* Persoon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3F7E518F209F30590021AAE6 /* Werkstuk1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Werkstuk1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7E5193209F30590021AAE6 /* Werkstuk1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Werkstuk1UITests.swift; sourceTree = "<group>"; };
 		3F7E5195209F30590021AAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F7E51A4209F335D0021AAE6 /* Persoon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persoon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,13 @@
 		3F7E516F209F30590021AAE6 /* Werkstuk1 */ = {
 			isa = PBXGroup;
 			children = (
-				3F7E5170209F30590021AAE6 /* AppDelegate.swift */,
-				3F7E5172209F30590021AAE6 /* ViewController.swift */,
-				3F7E5174209F30590021AAE6 /* Main.storyboard */,
-				3F7E517A209F30590021AAE6 /* Assets.xcassets */,
-				3F7E517C209F30590021AAE6 /* LaunchScreen.storyboard */,
-				3F7E517F209F30590021AAE6 /* Info.plist */,
+				3F7E51A3209F334E0021AAE6 /* ModelClasses */,
 				3F7E5177209F30590021AAE6 /* Werkstuk1.xcdatamodeld */,
+				3F7E517F209F30590021AAE6 /* Info.plist */,
+				3F7E5174209F30590021AAE6 /* Main.storyboard */,
+				3F7E517C209F30590021AAE6 /* LaunchScreen.storyboard */,
+				3F7E51A1209F331B0021AAE6 /* swift */,
+				3F7E51A2209F332C0021AAE6 /* assets */,
 			);
 			path = Werkstuk1;
 			sourceTree = "<group>";
@@ -126,6 +128,31 @@
 				3F7E5195209F30590021AAE6 /* Info.plist */,
 			);
 			path = Werkstuk1UITests;
+			sourceTree = "<group>";
+		};
+		3F7E51A1209F331B0021AAE6 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				3F7E5170209F30590021AAE6 /* AppDelegate.swift */,
+				3F7E5172209F30590021AAE6 /* ViewController.swift */,
+			);
+			name = swift;
+			sourceTree = "<group>";
+		};
+		3F7E51A2209F332C0021AAE6 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				3F7E517A209F30590021AAE6 /* Assets.xcassets */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		3F7E51A3209F334E0021AAE6 /* ModelClasses */ = {
+			isa = PBXGroup;
+			children = (
+				3F7E51A4209F335D0021AAE6 /* Persoon.swift */,
+			);
+			name = ModelClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +291,7 @@
 			files = (
 				3F7E5173209F30590021AAE6 /* ViewController.swift in Sources */,
 				3F7E5171209F30590021AAE6 /* AppDelegate.swift in Sources */,
+				3F7E51A5209F335D0021AAE6 /* Persoon.swift in Sources */,
 				3F7E5179209F30590021AAE6 /* Werkstuk1.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
