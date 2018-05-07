@@ -12,12 +12,12 @@ var personen: [Persoon] = []
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    let persoon1 = Persoon(naam: "Sanchez", voorNaam: "Beth", foto: "beth.jpg", adres: "20-144 E Cabot Ln, Westbury, NY 11590, USA", latitude: 40.746259, longitude: -73.54742864392216, telefoon: 0400033362)
-    let persoon2 = Persoon(naam: "Sanchez", voorNaam: "Rick", foto: "rick.jpg", adres: "20-144 E Cabot Ln, Westbury, NY 11590, USA", latitude: 40.746259, longitude: -73.54742864392216, telefoon: 0400033363)
-    let persoon3 = Persoon(naam: "Smith", voorNaam: "Morty", foto: "morty.jpg", adres: "20-144 E Cabot Ln, Westbury, NY 11590, USA", latitude: 40.746259, longitude: -73.54742864392216, telefoon: 0400033364)
-    let persoon4 = Persoon(naam: "Smith", voorNaam: "Summer", foto: "summer.jpg", adres: "20-144 E Cabot Ln, Westbury, NY 11590, USA", latitude: 40.746259, longitude: -73.54742864392216, telefoon: 0400033365)
-    let persoon5 = Persoon(naam: "Smith", voorNaam: "Jerry", foto: "jerry.jpg", adres: "20-144 E Cabot Ln, Westbury, NY 11590, USA", latitude: 40.746259, longitude: -73.54742864392216, telefoon: 0400033366)
-    let persoon6 = Persoon(naam: "Poopy Butthole", voorNaam: "Mister", foto: "butt.jpg", adres: "20-144 E Cabot Ln, Westbury, NY 11590, USA", latitude: 40.746259, longitude: -73.54742864392216, telefoon: 0400033367)
+    let persoon1 = Persoon(naam: "Sanchez", voorNaam: "Beth", foto: "beth.jpg", adres: "20-144 E Cabot Ln, Westbury, NY 11590, USA", latitude: 50.775679, longitude: 4.189059100000001, telefoon: 0400033362)
+    let persoon2 = Persoon(naam: "Sanchez", voorNaam: "Rick", foto: "rick.jpg", adres: "20-144 E Cabot Ln, Westbury, NY 11590, USA", latitude: 50.785679, longitude: 4.199059100000001, telefoon: 0400033363)
+    let persoon3 = Persoon(naam: "Smith", voorNaam: "Morty", foto: "morty.jpg", adres: "20-144 E Cabot Ln, Westbury, NY 11590, USA", latitude: 50.905679, longitude: 4.109059100000001, telefoon: 0400033364)
+    let persoon4 = Persoon(naam: "Smith", voorNaam: "Summer", foto: "summer.jpg", adres: "20-144 E Cabot Ln, Westbury, NY 11590, USA", latitude: 50.705679, longitude: 4.159059100000001, telefoon: 0400033365)
+    let persoon5 = Persoon(naam: "Smith", voorNaam: "Jerry", foto: "jerry.jpg", adres: "20-144 E Cabot Ln, Westbury, NY 11590, USA", latitude: 50.605679, longitude: 4.149059100000001, telefoon: 0400033366)
+    let persoon6 = Persoon(naam: "Poopy Butthole", voorNaam: "Mister", foto: "butt.jpg", adres: "20-144 E Cabot Ln, Westbury, NY 11590, USA", latitude: 50.775679, longitude: 4.189059100000001, telefoon: 0400033367)
     
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return(personen.count)
