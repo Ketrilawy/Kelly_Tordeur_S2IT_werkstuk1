@@ -9,6 +9,8 @@
 import UIKit
 import MapKit
 
+var fotoOmDoorTeSturen:String!
+
 class DetailViewController: UIViewController {
     
     var persoonvoorSegue:Persoon!
@@ -22,7 +24,19 @@ class DetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        fotoOmDoorTeSturen = persoonvoorSegue.foto
+        
+        foto.image = UIImage(named:persoonvoorSegue.foto)
+        naam.text = persoonvoorSegue.voorNaam + " " + persoonvoorSegue.naam
+        telefoon.text = String(persoonvoorSegue.telefoon)
+        adres.text = persoonvoorSegue.adres
+        locatie.text = "Lat: " + String(persoonvoorSegue.latitude) + " Long: " + String(persoonvoorSegue.longitude)
+        
+        let coordinaten = CLLocationCoordinate2DMake(persoonvoorSegue.latitude, persoonvoorSegue.longitude)
+        map.setRegion(MKCoordinateRegionMakeWithDistance(coordinaten, 2000, 2000), animated: true)
+        let pin = Annotation(title: persoonvoorSegue.adres, subtitle: persoonvoorSegue.voorNaam + " " + persoonvoorSegue.naam, coordinate: coordinaten)
+        map.addAnnotation(pin)
         // Do any additional setup after loading the view.
     }
 
