@@ -13,6 +13,7 @@ import CoreLocation
 class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
     
     @IBOutlet var map: MKMapView!
+    
     var locationManager = CLLocationManager()
 
     override func viewDidLoad() {
@@ -22,7 +23,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
         map.showsUserLocation = true
         locationManager.desiredAccuracy = kCLLocationAccuracyBest
         locationManager.delegate = self
-
+        
         if (CLLocationManager.locationServicesEnabled()) {
             locationManager = CLLocationManager()
             locationManager.delegate = self
@@ -30,9 +31,7 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
             locationManager.requestAlwaysAuthorization()
             locationManager.requestWhenInUseAuthorization()
         }
-        
         locationManager.requestWhenInUseAuthorization()
-        
         if CLLocationManager.locationServicesEnabled() {
             locationManager.startUpdatingLocation()
         }
@@ -46,19 +45,10 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
         }
         
         for value in personen {
-            let coordinates = CLLocationCoordinate2DMake(value.latitude,value.longitude)
-            let pin = Annotation(title: value.adres, subtitle: value.voorNaam + " " + value.naam, coordinate: coordinates)
+            let coordinatesPersoon = CLLocationCoordinate2DMake(value.latitude,value.longitude)
+            let pin = Annotation(title: value.adres, subtitle: value.voorNaam + " " + value.naam, coordinate: coordinatesPersoon)
             map.addAnnotation(pin)
         }
-        
-        func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
-            let location = locations.last as! CLLocation
-            let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
-            var region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
-            region.center = map.userLocation.coordinate
-            map.setRegion(region, animated: true)
-        }
-
     }
 
     override func didReceiveMemoryWarning() {
