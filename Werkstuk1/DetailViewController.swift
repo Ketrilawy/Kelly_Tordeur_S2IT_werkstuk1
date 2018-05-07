@@ -11,6 +11,8 @@ import MapKit
 
 class DetailViewController: UIViewController {
     
+    var persoonvoorSegue:Persoon!
+    
     @IBOutlet var foto: UIImageView!
     @IBOutlet var naam: UILabel!
     @IBOutlet var telefoon: UILabel!

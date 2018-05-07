@@ -10,9 +10,8 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
     
-    @IBOutlet var cell: UIView!
-    @IBOutlet var naam: UILabel!
     @IBOutlet var foto: UIImageView!
+    @IBOutlet var naam: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
