@@ -31,7 +31,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        self.performSegue(withIdentifier: "detalSegue", sender: indexPath);
+        self.performSegue(withIdentifier: "detailSegue", sender: indexPath);
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
