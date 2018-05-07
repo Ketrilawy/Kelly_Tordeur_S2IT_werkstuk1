@@ -9,7 +9,8 @@
 import UIKit
 
 class TableViewCell: UITableViewCell {
-
+    
+    @IBOutlet var cell: UIView!
     @IBOutlet var naam: UILabel!
     @IBOutlet var foto: UIImageView!
     

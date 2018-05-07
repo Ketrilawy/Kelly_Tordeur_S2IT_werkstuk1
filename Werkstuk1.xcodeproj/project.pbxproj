@@ -11,6 +11,12 @@
 		3F41B4C920A04E0100CB1EBF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41B4C820A04E0100CB1EBF /* DetailViewController.swift */; };
 		3F41B4CB20A04E9800CB1EBF /* FotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41B4CA20A04E9800CB1EBF /* FotoViewController.swift */; };
 		3F41B4CD20A04EB700CB1EBF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41B4CC20A04EB700CB1EBF /* MapViewController.swift */; };
+		3F41B4D420A069CF00CB1EBF /* beth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4CE20A069CF00CB1EBF /* beth.jpg */; };
+		3F41B4D520A069CF00CB1EBF /* butt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4CF20A069CF00CB1EBF /* butt.jpg */; };
+		3F41B4D620A069CF00CB1EBF /* jerry.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4D020A069CF00CB1EBF /* jerry.jpg */; };
+		3F41B4D720A069CF00CB1EBF /* morty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4D120A069CF00CB1EBF /* morty.jpg */; };
+		3F41B4D820A069CF00CB1EBF /* rick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4D220A069CF00CB1EBF /* rick.jpg */; };
+		3F41B4D920A069CF00CB1EBF /* summer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4D320A069CF00CB1EBF /* summer.jpg */; };
 		3F7E5171209F30590021AAE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E5170209F30590021AAE6 /* AppDelegate.swift */; };
 		3F7E5173209F30590021AAE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E5172209F30590021AAE6 /* ViewController.swift */; };
 		3F7E5176209F30590021AAE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E5174209F30590021AAE6 /* Main.storyboard */; };
@@ -44,6 +50,12 @@
 		3F41B4C820A04E0100CB1EBF /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3F41B4CA20A04E9800CB1EBF /* FotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FotoViewController.swift; sourceTree = "<group>"; };
 		3F41B4CC20A04EB700CB1EBF /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		3F41B4CE20A069CF00CB1EBF /* beth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beth.jpg; path = ../../beth.jpg; sourceTree = "<group>"; };
+		3F41B4CF20A069CF00CB1EBF /* butt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = butt.jpg; path = ../../butt.jpg; sourceTree = "<group>"; };
+		3F41B4D020A069CF00CB1EBF /* jerry.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jerry.jpg; path = ../../jerry.jpg; sourceTree = "<group>"; };
+		3F41B4D120A069CF00CB1EBF /* morty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = morty.jpg; path = ../../morty.jpg; sourceTree = "<group>"; };
+		3F41B4D220A069CF00CB1EBF /* rick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rick.jpg; path = ../../rick.jpg; sourceTree = "<group>"; };
+		3F41B4D320A069CF00CB1EBF /* summer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = summer.jpg; path = ../../summer.jpg; sourceTree = "<group>"; };
 		3F7E516D209F30590021AAE6 /* Werkstuk1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Werkstuk1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7E5170209F30590021AAE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F7E5172209F30590021AAE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +166,12 @@
 		3F7E51A2209F332C0021AAE6 /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				3F41B4CE20A069CF00CB1EBF /* beth.jpg */,
+				3F41B4CF20A069CF00CB1EBF /* butt.jpg */,
+				3F41B4D020A069CF00CB1EBF /* jerry.jpg */,
+				3F41B4D120A069CF00CB1EBF /* morty.jpg */,
+				3F41B4D220A069CF00CB1EBF /* rick.jpg */,
+				3F41B4D320A069CF00CB1EBF /* summer.jpg */,
 				3F7E517A209F30590021AAE6 /* Assets.xcassets */,
 			);
 			name = assets;
@@ -274,8 +292,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F41B4D820A069CF00CB1EBF /* rick.jpg in Resources */,
+				3F41B4D620A069CF00CB1EBF /* jerry.jpg in Resources */,
+				3F41B4D920A069CF00CB1EBF /* summer.jpg in Resources */,
+				3F41B4D720A069CF00CB1EBF /* morty.jpg in Resources */,
 				3F7E517E209F30590021AAE6 /* LaunchScreen.storyboard in Resources */,
+				3F41B4D520A069CF00CB1EBF /* butt.jpg in Resources */,
 				3F7E517B209F30590021AAE6 /* Assets.xcassets in Resources */,
+				3F41B4D420A069CF00CB1EBF /* beth.jpg in Resources */,
 				3F7E5176209F30590021AAE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
