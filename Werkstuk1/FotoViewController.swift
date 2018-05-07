@@ -14,7 +14,7 @@ class FotoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        foto.image = UIImage(named: fotoOmDoorTeSturen)
         // Do any additional setup after loading the view.
     }
 
