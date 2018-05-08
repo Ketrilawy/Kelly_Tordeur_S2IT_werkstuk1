@@ -18,6 +18,12 @@
 		3F41B4D820A069CF00CB1EBF /* rick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4D220A069CF00CB1EBF /* rick.jpg */; };
 		3F41B4D920A069CF00CB1EBF /* summer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4D320A069CF00CB1EBF /* summer.jpg */; };
 		3F41B4DB20A0993900CB1EBF /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F41B4DA20A0993900CB1EBF /* Annotation.swift */; };
+		3F41B4E220A1B13400CB1EBF /* beth-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4DC20A1B13400CB1EBF /* beth-01.jpg */; };
+		3F41B4E320A1B13400CB1EBF /* butt-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4DD20A1B13400CB1EBF /* butt-01.jpg */; };
+		3F41B4E420A1B13400CB1EBF /* jerry-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4DE20A1B13400CB1EBF /* jerry-01.jpg */; };
+		3F41B4E520A1B13400CB1EBF /* morty-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4DF20A1B13400CB1EBF /* morty-01.jpg */; };
+		3F41B4E620A1B13400CB1EBF /* rick-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4E020A1B13400CB1EBF /* rick-01.jpg */; };
+		3F41B4E720A1B13400CB1EBF /* summer-01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F41B4E120A1B13400CB1EBF /* summer-01.jpg */; };
 		3F7E5171209F30590021AAE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E5170209F30590021AAE6 /* AppDelegate.swift */; };
 		3F7E5173209F30590021AAE6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7E5172209F30590021AAE6 /* MainViewController.swift */; };
 		3F7E5176209F30590021AAE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7E5174209F30590021AAE6 /* Main.storyboard */; };
@@ -58,6 +64,12 @@
 		3F41B4D220A069CF00CB1EBF /* rick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rick.jpg; path = ../../rick.jpg; sourceTree = "<group>"; };
 		3F41B4D320A069CF00CB1EBF /* summer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = summer.jpg; path = ../../summer.jpg; sourceTree = "<group>"; };
 		3F41B4DA20A0993900CB1EBF /* Annotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Annotation.swift; path = ../../../Werkstuk1/Werkstuk1/Annotation.swift; sourceTree = "<group>"; };
+		3F41B4DC20A1B13400CB1EBF /* beth-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "beth-01.jpg"; path = "../../beth-01.jpg"; sourceTree = "<group>"; };
+		3F41B4DD20A1B13400CB1EBF /* butt-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "butt-01.jpg"; path = "../../butt-01.jpg"; sourceTree = "<group>"; };
+		3F41B4DE20A1B13400CB1EBF /* jerry-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "jerry-01.jpg"; path = "../../jerry-01.jpg"; sourceTree = "<group>"; };
+		3F41B4DF20A1B13400CB1EBF /* morty-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "morty-01.jpg"; path = "../../morty-01.jpg"; sourceTree = "<group>"; };
+		3F41B4E020A1B13400CB1EBF /* rick-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "rick-01.jpg"; path = "../../rick-01.jpg"; sourceTree = "<group>"; };
+		3F41B4E120A1B13400CB1EBF /* summer-01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "summer-01.jpg"; path = "../../summer-01.jpg"; sourceTree = "<group>"; };
 		3F7E516D209F30590021AAE6 /* Werkstuk1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Werkstuk1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7E5170209F30590021AAE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F7E5172209F30590021AAE6 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -172,6 +184,12 @@
 				3F41B4CF20A069CF00CB1EBF /* butt.jpg */,
 				3F41B4D020A069CF00CB1EBF /* jerry.jpg */,
 				3F41B4D120A069CF00CB1EBF /* morty.jpg */,
+				3F41B4DC20A1B13400CB1EBF /* beth-01.jpg */,
+				3F41B4DD20A1B13400CB1EBF /* butt-01.jpg */,
+				3F41B4DE20A1B13400CB1EBF /* jerry-01.jpg */,
+				3F41B4DF20A1B13400CB1EBF /* morty-01.jpg */,
+				3F41B4E020A1B13400CB1EBF /* rick-01.jpg */,
+				3F41B4E120A1B13400CB1EBF /* summer-01.jpg */,
 				3F41B4D220A069CF00CB1EBF /* rick.jpg */,
 				3F41B4D320A069CF00CB1EBF /* summer.jpg */,
 				3F7E517A209F30590021AAE6 /* Assets.xcassets */,
@@ -296,14 +314,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F41B4D820A069CF00CB1EBF /* rick.jpg in Resources */,
+				3F41B4E620A1B13400CB1EBF /* rick-01.jpg in Resources */,
 				3F41B4D620A069CF00CB1EBF /* jerry.jpg in Resources */,
+				3F41B4E320A1B13400CB1EBF /* butt-01.jpg in Resources */,
 				3F41B4D920A069CF00CB1EBF /* summer.jpg in Resources */,
 				3F41B4D720A069CF00CB1EBF /* morty.jpg in Resources */,
+				3F41B4E420A1B13400CB1EBF /* jerry-01.jpg in Resources */,
+				3F41B4E720A1B13400CB1EBF /* summer-01.jpg in Resources */,
 				3F7E517E209F30590021AAE6 /* LaunchScreen.storyboard in Resources */,
 				3F41B4D520A069CF00CB1EBF /* butt.jpg in Resources */,
 				3F7E517B209F30590021AAE6 /* Assets.xcassets in Resources */,
+				3F41B4E220A1B13400CB1EBF /* beth-01.jpg in Resources */,
 				3F41B4D420A069CF00CB1EBF /* beth.jpg in Resources */,
 				3F7E5176209F30590021AAE6 /* Main.storyboard in Resources */,
+				3F41B4E520A1B13400CB1EBF /* morty-01.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
